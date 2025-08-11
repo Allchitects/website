@@ -35,8 +35,8 @@
     <main>
         <section class="home" id="home">
             <div class="home__content container">
-                <h1>Arquitectura que Transforma Espacios.</h1>
-                <p>Con 9 años de experiencia, mi pasión es crear espacios funcionales, estéticos y sostenibles. Fusiono diseño y técnica para materializar las necesidades y aspiraciones de cada cliente.</p>
+                <h1>Arquitectura que Transforma Espacios</h1>
+                <p>Con 9 años de experiencia, mi pasión es crear espacios funcionales, estéticos y sostenibles. Fusiono diseño y técnica para materializar las necesidades y aspiraciones de cada cliente</p>
                 <a href="#projects" class="button">Explorar Proyectos</a>
             </div>
         </section>
@@ -50,10 +50,10 @@
                 <div class="about__data">
                     <h3>Lualbert Bustamante</h3>
                     <p class="about__subtitle">Arquitecto Fundador de allchitects</p>
-                    <p>Profesional experimentado con 8 años en el ámbito de la arquitectura. Cuento con sólidas habilidades técnicas y de diseño, así como excelentes capacidades de comunicación y gestión de proyectos. Mi pasión reside en la creación de espacios funcionales, estéticos y sostenibles que satisfagan las necesidades del trabajo.</p>
+                    <p>Profesional experimentado con 9 años en el ámbito de la arquitectura. Cuento con sólidas habilidades técnicas y de diseño, así como excelentes capacidades de comunicación y gestión de proyectos. Mi pasión reside en la creación de espacios funcionales, estéticos y sostenibles que satisfagan las necesidades del trabajo</p>
                     <h4>Habilidades Principales</h4>
                     <div class="skills__list">
-                        <span>AUTOCAD</span><span>SKETCHUP</span><span>REVIT</span><span>ILLUSTRATOR</span>
+                        <span>AUTOCAD</span><span>SKETCHUP</span><span>REVIT</span><span>ILLUSTRATOR</span><span>V-RAY</span>
                     </div>
                 </div>
             </div>
@@ -73,14 +73,14 @@
                     <article class="project__card">
                         <img src="images/proyecto-2.png" alt="Imagen del Diseño Corporativo">
                         <div class="project__data">
-                            <h3>Diseño baño moderno y minimalista</h3>
+                            <h3>Diseño de baño moderno y minimalista</h3>
                             <span>Caracas, 2024</span>
                         </div>
                     </article>
                     <article class="project__card">
                         <img src="images/proyecto-3.png" alt="Imagen de Remodelación Comercial">
                         <div class="project__data">
-                            <h3>Remodelación Comercial de una oficina</h3>
+                            <h3>Remodelación de una oficina comercial</h3>
                             <span>Caracas, 2025</span>
                         </div>
                     </article>
@@ -99,18 +99,46 @@
         </section>
 
         <section class="section" id="contact">
-            <div class="container">
-                <h2 class="section__title">Hablemos de tu Proyecto</h2>
-                <div class="contact__container">
-                    <p>Contáctame para agendar una consultoría o solicitar un presupuesto.</p>
-                    <div class="contact__info">
-                        <span><i class="fas fa-envelope"></i> lualbertb@gmail.com</span>
-                        <span><i class="fas fa-phone"></i> +58 4143732149</span>
-                        <a href="https://www.instagram.com/allchitects" target="_blank"><span><i class="fab fa-instagram"></i> @allchitects</span></a>
-                    </div>
+    <div class="container">
+        <h2 class="section__title">Hablemos de tu Proyecto</h2>
+        <div class="contact__grid">
+            <div class="contact__info-direct">
+                <h3>Información Directa</h3>
+                <p>Si prefieres, puedes contactarme directamente a través de estos medios. Responderé a la brevedad posible.</p>
+                <div class="info__item">
+                    <i class="fas fa-envelope"></i>
+                    <span>lualbertb@gmail.com</span>
+                </div>
+                <div class="info__item">
+                    <i class="fas fa-phone"></i>
+                    <span>+58 414-3732149</span>
+                </div>
+                <div class="info__item">
+                    <i class="fab fa-instagram"></i>
+                    <a href="https://www.instagram.com/allchitects" target="_blank">@allchitects</a>
                 </div>
             </div>
-        </section>
+
+            <form action="https://formspree.io/f/xrbljgny" method="POST" class="contact__form">
+                <h3>Envíame un Mensaje</h3>
+                <div class="form__group">
+                    <label for="name">Nombre Completo</label>
+                    <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+                </div>
+                <div class="form__group">
+                    <label for="email">Correo Electrónico</label>
+                    <input type="email" id="email" name="email" placeholder="tu@correo.com" required>
+                </div>
+                <div class="form__group">
+                    <label for="message">Mensaje</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Hola, me gustaría cotizar un proyecto..." required></textarea>
+                </div>
+                <button type="submit" class="button">Enviar Mensaje</button>
+            </form>
+        </div>
+    </div>
+</section>
+
     </main>
 
     <footer class="footer">
